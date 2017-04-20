@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quoctuan.mycontactapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số phone liên lạc :"
+        android:id="@+id/txtSoPhone"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSoPhone"
+        android:id="@+id/editPhone"
+        android:inputType="phone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPhone"
+        android:id="@+id/txtND"
+        android:text="Nội dung tin nhắn"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtND"
+        android:id="@+id/editND"
+        android:text="xin chào"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editND"
+        android:id="@+id/btnQuaySo"
+        android:text="Quay số"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editND"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnGoiLuon"
+        android:text="Gọi Luôn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editND"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnNhanTin"
+        android:text="Nhắn tin"
+        />
+
+
+</RelativeLayout>
